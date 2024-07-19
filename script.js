@@ -11,13 +11,13 @@ btn.addEventListener("click", ()=>{
     const moneyAnim = document.getElementById("emphasis");
     const divColor = document.getElementById("color-changing");
     const btnEffect = document.getElementById("btn");
-    moneyAnim.classList.add("animate-bounce");
+    moneyAnim.classList.add("animationjs");
     divColor.classList.add("animate-rainbow");
     btn.classList.add("animationjs");
 setTimeout(()=>{
-        moneyAnim.classList.remove("animate-bounce");
+        moneyAnim.classList.remove("animationjs");
         divColor.classList.remove("animate-rainbow");
         btn.classList.remove("animationjs");
 
-    }, 3000);
+    }, 10000);
 })
